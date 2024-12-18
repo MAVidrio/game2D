@@ -32,8 +32,8 @@ int main(int argc, char * argv[])
     SDL_ShowCursor(SDL_DISABLE);
     
     /*demo setup*/
-    sprite = gf2d_sprite_load_image("images/backgrounds/bg_flat.png");
-    mouse = gf2d_sprite_load_all("images/pointer.png",32,32,16,0);
+    sprite = gf2d_sprite_load_image("C:/Users/migue/.ssh/game2D/images/backgrounds/bg_custom_flat.png");
+    mouse = gf2d_sprite_load_all("C:/Users/migue/.ssh/game2D/images/pointer.png",32,32,16,0);
     /*main game loop*/
     while(!done)
     {
